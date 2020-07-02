@@ -2,7 +2,7 @@
 
 # 펌웨어
 
-- 문제점 1
+<문제점 1>
 
 	for (int i = 0; i < mServiceList.size()
 	    && (mOadService == null || mConnControlService == null); i++) {
@@ -14,6 +14,7 @@
 			mConnControlService = srv;
 		}
 	}
+	
 
 DeviceActivity안에 있는 checkOad 함수이다.
 현재 server list에는 9개의 UUID가 있다. (Log로 출력시켜본 결과)

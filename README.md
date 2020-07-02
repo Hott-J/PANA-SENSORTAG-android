@@ -1,8 +1,8 @@
 # PANA-SENSORTAG-android
 
-#펌웨어
+# 펌웨어
 
--문제점 1
+- 문제점 1
 
 	for (int i = 0; i < mServiceList.size()
 	    && (mOadService == null || mConnControlService == null); i++) {

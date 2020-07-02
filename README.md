@@ -1,6 +1,7 @@
 # PANA-SENSORTAG-android
--private void checkOad() {
-// Check if OAD is supported (needs OAD and Connection Control service)
+
+private void checkOad() {
+Check if OAD is supported (needs OAD and Connection Control service)
 mOadService = null;
 mConnControlService = null;
 

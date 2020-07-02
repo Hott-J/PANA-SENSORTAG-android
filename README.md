@@ -3,6 +3,7 @@
 #펌웨어
 
 -문제점 1
+
 	for (int i = 0; i < mServiceList.size()
 	    && (mOadService == null || mConnControlService == null); i++) {
 		BluetoothGattService srv = mServiceList.get(i);
